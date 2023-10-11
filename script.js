@@ -6,7 +6,7 @@
     let longitud = document.getElementById("long").value;
     let ancho = document.getElementById("ancho").value;
 
-    
+    if((longitud >= 0 && longitud <=9) && (ancho >= 0 && ancho <=9) ){
     let area = 0;
     let perimetro = 0;
     let diagonal = 0;
@@ -16,6 +16,8 @@
         document.getElementById("mensaje").innerHTML = "Area del rectangulo : "+area;
         document.getElementById("mensajePerimetro").innerHTML = "Perimetro del rectangulo: "+ perimetro;
         document.getElementById("mensajeDiagonal").innerHTML = "Diagonal del rectangulo:" + diagonal.toFixed(2);
-    
+    }else{
+        document.getElementById("mensajeDiagonal").innerHTML = "Por favor introduzca valores validos";
+    }
   });
 });
