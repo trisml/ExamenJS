@@ -4,8 +4,10 @@
 }
 h1{
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 button{
+    
     margin-top: 20px;
     width: 12em;
     height: 3em;
@@ -13,14 +15,16 @@ button{
     background-color:#0078FF;
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:1em;
+    font-weight: bold;
     
     
 }
 label{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 input{
+    font-family: 'Courier New', Courier, monospace;
     width: 25em;
     height: 2em;
 }
