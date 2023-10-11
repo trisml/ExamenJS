@@ -6,6 +6,8 @@
     let longitud = document.getElementById("long").value;
     let ancho = document.getElementById("ancho").value;
 
+    //Cuando intente meter valores negativos no le dejara
+    
     if((longitud >= 0 && longitud <=9) && (ancho >= 0 && ancho <=9) ){
     let area = 0;
     let perimetro = 0;
